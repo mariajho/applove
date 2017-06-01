@@ -37,20 +37,11 @@ a:hover {
   color: #E95853;
 }
 
-.logo {
-  float: right;
-}
-
 header {
   position: fixed;
   background: white;
   width: 100%;
   top: 0;
-}
-
-.menu {
-  padding: 14px 70px;
-  overflow: auto;
 }
 
 #home {
@@ -77,11 +68,142 @@ header {
   color: #fff;
   padding: 11px 20px;
   border-radius: 1px;
-  font-weight: 500;
+  font-weight: : 500;
   text-transform: uppercase;
   margin-top: 63px;
   display: inline-block;
   font-size: 14px;
 }
 
+footer {
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 7px; 
+}
 
+.box-services{
+  cursor:pinter;
+}
+
+.box-services:hover{
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+#box-services-modal{
+  background-color: rgba(240,30,80,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#box-services-modal .modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-services-modal .modal-body h5,
+#box-services-modal .modal-body h6{
+  color: whitesmoke;
+}
+#box-services-modal .modal-body h5{
+  font-size: 2em;
+}
+#box-services-modal .modal-body h6{
+  font-size: 1em;
+}
+
+#box-services-modal .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#box-services-modal .close img{
+  width: 60px;
+}
+
+.hide{
+  display: none;
+}
+
+#productos {
+
+  text-align: center;
+  padding: 70px;
+}
+
+.text-productos{
+  font-size: 40px;
+}
+
+.img-responsive{
+  max-width: 100%;
+  height: 250px;
+  float: left;
+  border: 30px;
+}
+
+.container3{
+  width: 70%;
+  max-width: 1200%;
+  margin: 0 auto;
+}
+
+
+.row:before, .row:after{
+  content: "";
+  display: table;
+}
+
+.row:after{
+  clear: both;
+}
+
+[class*="col-"]{
+  padding: 12px;
+  float: left;
+  min-height: 7px;
+}
+
+.col-1{
+  width: 8.333333%;
+}
+
+.col-2{
+  width: 16.666667%;
+}
+
+.col-3{
+  width: 25%;
+}
+
+.col-4{
+  width: 33.333333%
+}
+
+.col-5{
+  width: 41.666667%;
+}
+
+.col-6{
+  width: 50%;
+}
+
+.col-7{
+  width: 58.333333%;
+}
+
+.col-8{
+  width: 66.666667%;
+}
+
+.col-9{
+  width: 75%;
+}
