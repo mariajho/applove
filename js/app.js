@@ -1,7 +1,6 @@
-/*
- * Archivo principal de funcionalidad de JS
- */
- (function main(){
+
+
+(function main(){
 	var boxes = Array.from(document.getElementsByClassName("box-services"));
 	var modal = document.getElementById("box-services-modal");
 	var bodyModal, close, img;

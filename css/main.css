@@ -33,7 +33,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a hover {
   color: #E95853;
 }
 
@@ -73,14 +73,6 @@ header {
   margin-top: 63px;
   display: inline-block;
   font-size: 14px;
-}
-
-footer {
-  text-align: center;
-  height: 70px;
-  background-color: #373b47;
-  color: white;
-  padding-top: 7px; 
 }
 
 .box-services{
@@ -143,19 +135,10 @@ footer {
   font-size: 40px;
 }
 
-.img-responsive{
-  max-width: 100%;
-  height: 250px;
-  float: left;
-  border: 30px;
-}
-
 .container3{
-  width: 70%;
-  max-width: 1200%;
-  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
 }
-
 
 .row:before, .row:after{
   content: "";
@@ -206,4 +189,12 @@ footer {
 
 .col-9{
   width: 75%;
+}
+
+footer {
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 7px; 
 }
