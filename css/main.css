@@ -37,6 +37,8 @@ a hover {
   color: #E95853;
 }
 
+
+
 header {
   position: fixed;
   background: white;
@@ -138,6 +140,7 @@ header {
 .container3{
   max-width: 1200px;
   padding: 20px;
+
 }
 
 .row:before, .row:after{
